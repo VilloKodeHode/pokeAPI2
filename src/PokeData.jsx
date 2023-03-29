@@ -45,7 +45,7 @@ export default function PokeData() {
   return (
     <div className="grid grid-cols-2 w-[100vw] bg-orange-300 p-8">
       <div className="grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-4 p-4 border">
-        <h2 className="col-span-full text-3xl">List of all pokemon:</h2>
+        <h2 className="col-span-full text-3xl">List of all pokemon</h2>
         {pokeList?.map((pokemon) => (
           <div className="grid w-36 justify-center border p-1 shadow-md">
             <button
